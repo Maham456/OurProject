@@ -1,0 +1,19 @@
+﻿@{ Layout = null; }
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>HOME</title>
+</head>
+<body>
+    <div>
+        @ViewBag.Greeting World
+        @Html.ActionLink("New User", "New_User_Form")
+        @Html.ActionLink("Sign In", "Old_User_Form")
+    </div>
+</body>
+</html>
+
+
